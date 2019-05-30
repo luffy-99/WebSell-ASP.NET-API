@@ -12,7 +12,7 @@ namespace Data.Repositories
     {
 
     }
-    public class PostRepository: RepositoryBase<Post>
+    public class PostRepository: RepositoryBase<Post>, IPostRepository
     {
         public PostRepository(IDbFactory dbFactory) : base(dbFactory)
         {
