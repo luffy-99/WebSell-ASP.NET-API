@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace Data.Repositories
 {
-    public interface IPostRepository
+    public interface IOrderRepository
     {
 
     }
-    public class PostRepository: RepositoryBase<Post>, IPostRepository
+    public class OrderRepository : RepositoryBase<Order>,IOrderRepository
     {
-        public PostRepository(IDbFactory dbFactory) : base(dbFactory)
+        public OrderRepository(IDbFactory dbFactory) : base(dbFactory)
         {
 
         }
