@@ -1,0 +1,11 @@
+D:\WebSell\Model\bin\Debug\Model.dll.config
+D:\WebSell\Model\bin\Debug\Model.dll
+D:\WebSell\Model\bin\Debug\Model.pdb
+D:\WebSell\Model\bin\Debug\EntityFramework.dll
+D:\WebSell\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\WebSell\Model\bin\Debug\EntityFramework.xml
+D:\WebSell\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\WebSell\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\WebSell\Model\obj\Debug\Model.csproj.CopyComplete
+D:\WebSell\Model\obj\Debug\Model.dll
+D:\WebSell\Model\obj\Debug\Model.pdb

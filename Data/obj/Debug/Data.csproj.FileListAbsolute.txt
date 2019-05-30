@@ -1,0 +1,17 @@
+D:\WebSell\Data\bin\Debug\Data.dll.config
+D:\WebSell\Data\bin\Debug\Data.dll
+D:\WebSell\Data\bin\Debug\Data.pdb
+D:\WebSell\Data\bin\Debug\EntityFramework.dll
+D:\WebSell\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\WebSell\Data\bin\Debug\EntityFramework.xml
+D:\WebSell\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\WebSell\Data\obj\Debug\Data.csprojAssemblyReference.cache
+D:\WebSell\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+D:\WebSell\Data\obj\Debug\Data.csproj.CopyComplete
+D:\WebSell\Data\obj\Debug\Data.dll
+D:\WebSell\Data\obj\Debug\Data.pdb
+D:\WebSell\Data\bin\Debug\Model.dll
+D:\WebSell\Data\bin\Debug\Model.pdb
+D:\WebSell\Data\bin\Debug\Model.dll.config
+D:\WebSell\Data\obj\Debug\Data.Migrations.InitDatabase.resources
+D:\WebSell\Data\obj\Debug\Data.csproj.GenerateResource.cache
