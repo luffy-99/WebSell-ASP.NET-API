@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Model.Abstract;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -9,11 +10,14 @@ using System.Threading.Tasks;
 namespace Model.Model
 {
     [Table("PostCategories")]
-    public class PostCategory
+    public class PostCategory: Auditable
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { set; get; }
+        [Required]
+        [MaxLength(256)]
+        public string Name { set; get; }
         [Required]
         [MaxLength(256)]
         [Column(TypeName ="varchar")]

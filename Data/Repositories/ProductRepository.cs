@@ -8,7 +8,11 @@ using System.Threading.Tasks;
 
 namespace Data.Repositories
 {
-    public class ProductRepository : RepositoryBase<Product>
+    public interface IProductRepository
+    {
+
+    }
+    public class ProductRepository : RepositoryBase<Product>, IProductRepository
     {
         public ProductRepository(IDbFactory dbFactory): base(dbFactory)
         {

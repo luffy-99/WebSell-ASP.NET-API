@@ -9,3 +9,15 @@ D:\WebSell\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 D:\WebSell\Model\obj\Debug\Model.csproj.CopyComplete
 D:\WebSell\Model\obj\Debug\Model.dll
 D:\WebSell\Model\obj\Debug\Model.pdb
+E:\WebSell\Model\bin\Debug\Model.dll.config
+E:\WebSell\Model\bin\Debug\Model.dll
+E:\WebSell\Model\bin\Debug\Model.pdb
+E:\WebSell\Model\bin\Debug\EntityFramework.dll
+E:\WebSell\Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\WebSell\Model\bin\Debug\EntityFramework.xml
+E:\WebSell\Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\WebSell\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+E:\WebSell\Model\obj\Debug\Model.csproj.CopyComplete
+E:\WebSell\Model\obj\Debug\Model.dll
+E:\WebSell\Model\obj\Debug\Model.pdb
+E:\WebSell\Model\obj\Debug\Model.csprojAssemblyReference.cache

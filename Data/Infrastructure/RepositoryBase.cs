@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Data.Infrastructure
 {
-    public abstract class RepositoryBase<T> where T : class
+    public abstract class RepositoryBase<T> : IRepository<T> where T : class
     {
         private ShopSellDbContext dbContext;
         private readonly IDbSet<T> dbSet;
@@ -26,18 +26,18 @@ namespace Data.Infrastructure
             this.DbFactory = dbFactory;
             this.dbSet = DbContext.Set<T>();
         }
-        public virtual void Add(T entity)
+        public virtual T Add(T entity)
         {
-            dbSet.Add(entity);
+            return dbSet.Add(entity);
         }
-        public virtual void Edit(T entity)
+        public virtual void Update(T entity)
         {
             dbSet.Attach(entity);
             dbContext.Entry(entity).State = EntityState.Modified;
         }
-        public virtual void Delete(T entity)
+        public virtual T Delete(T entity)
         {
-            dbSet.Remove(entity);
+            return dbSet.Remove(entity);
         }
         public virtual void DeleteMulti(Expression<Func<T, bool>> where)
         {
@@ -113,6 +113,12 @@ namespace Data.Infrastructure
         public bool CheckContains(Expression<Func<T, bool>> predicate)
         {
             return dbContext.Set<T>().Count<T>(predicate) > 0;
+        }
+
+        public T Delete(int id)
+        {
+            var entity = dbSet.Find(id);
+            return dbSet.Remove(entity);
         }
     }
 }

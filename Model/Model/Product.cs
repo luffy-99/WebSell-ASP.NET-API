@@ -34,12 +34,15 @@ namespace Model.Model
         public decimal? PromotionPrice { set; get; }
         public int? Warranty { set; get; }
         [MaxLength(500)]
-        public string Desciption { set; get; }
+        public string Description { set; get; }
         public string Content { set; get; }
         public bool? HomeFlag { set; get; }
         public bool? HotFlag { set; get; }
         public int? ViewCount { set; get; }
+        public string Tags { set; get; }
+        public int Quantity { set; get; }
         [ForeignKey("CategoryID")]
         public virtual ProductCategory ProductCategory { set; get; }
+        public virtual IEnumerable<ProductTag> ProductTags { set; get; }
     }
 }
